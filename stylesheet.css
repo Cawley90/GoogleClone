@@ -1,0 +1,226 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/*begin my CSS, the stuff above is to make it compatible with other browsers*/
+
+
+
+#topbar {
+	height:100px;
+	width:400px;
+	position:absolute;
+	right:-2px;
+	top:10px;
+	font-family:Arial;
+	font-size:12px;
+	margin-top:1em;
+	
+
+}
+
+
+div a {
+	padding-left:1em;
+}
+
+div img {
+	padding-left:1em;
+}
+
+
+
+a:link {
+	color:#97667F;
+	text-decoration:none;
+}
+
+a:hover {
+	text-decoration:underline;
+}
+
+#signin {
+	width:70px;
+	height:25px;
+	background-color:#4585F2;
+	display:inline-block;
+	color:white;
+	position:relative;
+	bottom:4px;
+	left:1em;
+	font-weight:bold;
+	border-radius:2px;
+	font-size:13px;
+	text-align:center;
+	padding-top:10px;
+	padding-right:5px;
+	padding-left:3px;
+}
+
+#terrible {
+	height:34px;
+	width:34px;
+	display:inline-block;
+	position:relative;
+	top:5px;
+	right:5px;
+}
+
+#logo {
+	margin-left:auto;
+	margin-right:auto;
+	margin-top:5em;
+	width:300px;
+	margin-top:15%;
+}
+
+form {
+	width:600px;
+	margin-left:auto;
+	margin-right:auto;
+}
+
+#searchbar {
+	width:600px;
+	margin-top:1em;
+	height:25px;
+	border:1px solid #D8D8D8;
+	background:url('https://dl.dropboxusercontent.com/u/65101260/img/microphone.png') no-repeat right;
+	background-size: 25px 25px;
+
+}
+
+#gs {
+	width:120px;
+	height:30px;
+	margin-top:1em;
+	margin-left:13em;
+	border:1px solid #D8D8D8;
+  	background: #F2F2F2;
+    background: -webkit-gradient(linear, 0 0, 0 100%, from(#F2F2F2), to(#F5F5F5));
+    background: -webkit-linear-gradient(#F2F2F2, #F5F5F5);
+    background: -moz-linear-gradient(#F2F2F2, #F5F5F5);
+    background: -o-linear-gradient(#F2F2F2, #F5F5F5);
+    background: linear-gradient(#F2F2F2, #F5F5F5);
+    border-radius:2px;
+    font-size:12px;
+    
+   
+}
+
+
+
+#lucky {
+	width:120px;
+	height:30px;
+	margin-top:1em;
+	margin-left:1em;
+	border:1px solid #D8D8D8;
+  	background: #F2F2F2;
+    background: -webkit-gradient(linear, 0 0, 0 100%, from(#F2F2F2), to(#F5F5F5));
+    background: -webkit-linear-gradient(#F2F2F2, #F5F5F5);
+    background: -moz-linear-gradient(#F2F2F2, #F5F5F5);
+    background: -o-linear-gradient(#F2F2F2, #F5F5F5);
+    background: linear-gradient(#F2F2F2, #F5F5F5);
+    border-radius:2px;
+    font-size:12px;
+
+
+}
+
+#searchbar:active {
+	border:1px solid blue;
+}
+
+#searchbar:hover{
+	border:1px solid #B2B2B2;
+}
+
+#gs:hover{
+	border:1px solid #C6C6C6;
+	box-shadow:0px 2px 3px #D9D9D9;
+}
+
+#lucky:hover{
+	border:1px solid #C6C6C6;
+	box-shadow:0px 2px 3px #D9D9D9;
+}
+
+#footer {
+	height:41px;
+	width:100%;
+	border:1px solid #E4E4E4;
+	background-color:#F2F2F2;
+	position:fixed;
+	bottom:0;
+	left:0;
+	right:0;
+}
+
+#left {
+	font-family:Verdana;
+	font-size:12px;
+	float:left;
+	margin-top:1em;
+	margin-left:1em;
+	color:#97667F;
+
+}
+
+#right {
+	float:right;
+	font-family:Verdana;
+	font-size:12px;
+	margin-top:1em;
+	margin-right:1em;
+}
+
+#body {
+	height:100%;
+	width:100%;
+}
